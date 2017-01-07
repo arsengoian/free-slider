@@ -19,10 +19,10 @@ The plug-in is filled with data with an AJAX request via JS `fetch` API.
 
 	```javascript
 		Slider.init(
-		  // Your content address (such as PHP API) goes here. You may as well create your own .json files
-		'http://' + window.location.hostname +'/content.json', 
-		  // Desired element location
-		document.getElementById("free-slider")
+			  // Your content address (such as PHP API) goes here. You may as well create your own .json files
+			'http://' + window.location.hostname +'/content.json', 
+			  // Desired element location
+			document.getElementById("free-slider")
 		)
 	```
 
