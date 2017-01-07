@@ -3,8 +3,8 @@
 var ProgressBar = {
 	length: 0,
 	bubbles: [],
-	init: function(length) {
-		var bar = document.getElementById("slider").getElementsByTagName("section")[1];
+	init: function(length, target) {
+		var bar = target.getElementsByTagName("section")[1];
 		for (var i = 0; i < length; i++) {
 			el = document.createElement("div");
 			el.onclick = (function(i) { return function() {
@@ -15,10 +15,11 @@ var ProgressBar = {
 		}
 	},
 	set: function(num) {
-		for (let i = 0; i < Slider.num; i++)
+		for (let i = 0; i < Slider.num; i++) {
 			if (i <= num)
 				this.bubbles[i].className = "completed";
 			else this.bubbles[i].className = "";
+		}
 	}
 } 
 
@@ -49,7 +50,7 @@ var Slider = {
 	init: function(content_address, target) {
 		Data.init(content_address, function(content) {
 			Slider.num = content.length;
-			ProgressBar.init(Slider.num);
+			ProgressBar.init(Slider.num, target);
 
 			let div = target.getElementsByClassName("content")[0];
 			Slider.img = div.getElementsByTagName("img")[0];
