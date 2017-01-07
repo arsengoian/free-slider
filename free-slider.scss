@@ -1,0 +1,15 @@
+
+
+$freeslider-height: 320px;
+$freeslider-width: 360px;
+
+$freeslider-main-color: #FFB74D;
+$freeslider-shadow-color: rgba(137, 95, 32, 0.54);
+
+$freeslider-font-address: "/res/OwnHand.ttf";
+
+@import 'free-slider/_slider.scss';
+
+#free-slider {
+	@include freeslider;
+}

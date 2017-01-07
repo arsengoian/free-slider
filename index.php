@@ -3,8 +3,8 @@
 	<head>
 		<title>Слайдер для SEO ;P</title>
 		<!-- include slider -->
-		<link rel="stylesheet" href="slider.css">
-		<script src="slider.js"></script>
+		<link rel="stylesheet" href="/res/free-slider.css">
+		<script src="/free-slider/slider.js"></script>
 		<!-- end slider -->
 		<style>
 			body {
@@ -19,7 +19,7 @@
 	</head>
 	<body onload="">
 		<div id="free-slider">
-			<?php include 'slider.htm' ?>
+			<?php include 'free-slider/slider.htm' ?>
 			<script>
 				Slider.init(
 					// Your content address (or PHP API goes here)
