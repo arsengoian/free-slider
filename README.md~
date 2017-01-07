@@ -1,0 +1,11 @@
+# Free-Slider
+## Simple and easy-to use web slider plug-in
+
+Uses SASS, HTML5 and vanilla JS.
+The purpose is to create a simple, easy-to implement and flexible JS slider plug-in.
+
+The plug-in is filled with data with an AJAX request via `fetch` API.
+
+### **Set-up instruction**
+* Download & unpack
+*
