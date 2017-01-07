@@ -3,6 +3,8 @@
 
 **If you want to contribute, read this document carefully before you start**
 
+_**NEW!** online demo: http://mediame.ga/slider/_
+
 Uses SASS, HTML5 and vanilla JS.
 The purpose is to create a simple, easy-to implement and flexible JS slider plug-in.
 
